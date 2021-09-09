@@ -9,10 +9,15 @@ public class Example3 {
         while(!userResponse.equals("done")){
             System.out.print("Enter next name or 'done' to end:");
             userResponse = reader.nextLine();
-            if(!userResponse.equals("done"));{
+            if (!userResponse.equals("done"));{
                 studentNames.add(userResponse);
             }
 
         }
+        System.out.println("The student in your class are:");
+        for (var Name: studentNames){
+            System.out.println(Name);
+        }
+
     }
 }
