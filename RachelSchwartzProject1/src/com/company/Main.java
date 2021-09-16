@@ -21,7 +21,11 @@ public class Main {
             price.add(Float.parseFloat(splitLine[1]));
             avaliable.add(Integer.parseInt(splitLine[2]));
         }
+        for(int i=0; i< software.size(); i++){
+            while(true){
 
+            }
+        }
 
     }
 }
